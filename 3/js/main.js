@@ -12,6 +12,6 @@ function checkCommentLength(string, requiredLength) {
 
 const button = document.querySelector('.img-upload__label');
 button.onclick = function() {
-  console.log(getRandomInt(1, 100));
-  console.log(checkCommentLength('xdd', 4));
+  getRandomInt(1, 100);
+  checkCommentLength('sdgs', 3);
 };
