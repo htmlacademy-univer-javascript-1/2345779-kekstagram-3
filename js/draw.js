@@ -1,3 +1,5 @@
+import {initForm} from './form.js';
+
 const pictureTemplate = document.querySelector('#picture').content;
 const pictureExp = pictureTemplate.querySelector('.picture');
 const pictures = document.querySelector('.pictures');
@@ -24,4 +26,6 @@ export const drawPictures = function (data) {
     pictures.append(res);
   }
 };
+
+initForm();
 
