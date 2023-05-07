@@ -1,10 +1,9 @@
-import { generateContent } from './data.js';
-import { drawPictures } from './draw.js';
-import './form.js';
-import './validate.js';
+import { setUserFormSubmit } from './validate.js';
+import { closeDownloadPicWindow } from './form.js';
+import { getPics } from './get-pics.js';
 
 
-const content = generateContent(25);
-drawPictures(content);
+getPics();
 
+setUserFormSubmit(closeDownloadPicWindow);
 
